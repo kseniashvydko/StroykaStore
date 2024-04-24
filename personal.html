@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="wrapper">
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="menu">
+                    <div class="menu__location">
+                        <img class="menu__location-img" src="./images/stroyka_img/header/Icon-location.svg" alt="">
+                        <p class="menu__location-text">Москва</p>
+                    </div>
+                    <nav class="menu__nav">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a class="menu__link" href="delivery.html">Доставка</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="refund.html">Возврат</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="documentation.html">Документация</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="contacts.html">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>    
+        <div class="container">
+                <div class="inside">
+                    <a class="inside__logo" href="index.html">
+                        <img class="inside__logo-img" src="./images/stroyka_img/header/Logo-header.svg" alt="">
+                    </a>
+                    <a class="inside__btn" href="catalog.html"><button class="inside__button">Каталог</button></a>
+                    <div class="inside__items">
+                        <a class="inside__item" href="personal.html">
+                            <img class="inside__item-img" src="./images/stroyka_img/header/Icon-profile.svg" alt="">
+                            <p class="inside__item-text">Профиль</p>
+                        </a>
+                        <a class="inside__item" href="orders.html">
+                            <img class="inside__item-img" src="./images/stroyka_img/header/Icon-orders.svg" alt="">
+                            <p class="inside__item-text">Заказы</p>
+                        </a>
+                        <a class="inside__item" href="busket.html">
+                            <img class="inside__item-img" src="./images/stroyka_img/header/Icon-basket.svg" alt="">
+                            <p class="inside__item-text">Корзина</p>
+                        </a>
+                    </div>
+                </div>
+                <hr class="header__hr">
+                <nav class="catalog">
+                    <ul class="catalog__list">
+                        <li class="catalog__list-item">
+                            <a class="catalog__list-link" href="#">Акции</a>
+                        </li>
+                        <li class="catalog__list-item">
+                            <a class="catalog__list-link" href="#">Строительные материалы</a>
+                        </li>
+                        <li class="catalog__list-item">
+                            <a class="catalog__list-link" href="#">Керамическая плитка</a>
+                        </li>
+                        <li class="catalog__list-item">
+                            <a class="catalog__list-link" href="#">Краски</a>
+                        </li>
+                        <li class="catalog__list-item">
+                            <a class="catalog__list-link" href="#">Сантехника</a>
+                        </li>
+                        <li class="catalog__list-item">
+                            <a class="catalog__list-link" href="#">Напольные покрытия</a>
+                        </li>
+                        <li class="catalog__list-item">
+                            <a class="catalog__list-link" href="#">Инструменты</a>
+                        </li>
+                        <li class="catalog__list-item">
+                            <a class="catalog__list-link" href="#">Обои</a>
+                        </li>
+                        <li class="catalog__list-item">
+                            <a class="catalog__list-link" href="#">Окна</a>
+                        </li>
+                    </ul>
+                </nav>
+                <hr class="header__hr">
+            </div>
+                
+        
+    </header>
+
+        <main class="main">
+            <section class="personal">
+                <div class="container">
+                    <h1 class="personal__title">Личный кабинет</h1>
+                    <div class="personal__box">
+                        <h2 class="personal__text">Личная информация</h2>
+                        <div class="personal__box-items">
+                            <div class="personal__box-item">
+                                <label class="personal__label" for="name"> Имя</label>
+                                    <input class="personal__input" id="name" type="text" name="name" value="" placeholder="Богдан">
+                            </div>
+                            <div class="personal__box-item">
+                                <label class="personal__label" for="last-name"> Фамилия</label>
+                                    <input class="personal__input" id="last-name" type="text" name="name" value="" placeholder="Порникин">
+                                
+                            </div>
+                            <div class="personal__box-item">
+                                <label class="personal__label" for="data">Дата рождения</label>
+                                <input  class="personal__input" type="date" id="data" name="trip-start" value="" min="1930-01-01" max="2024-12-31" />
+                                
+                            </div>
+                            <div class="personal__box-item">
+                                <label class="personal__label" for="tel">Телефон</label>
+                                <input class="personal__input" id="tel" type="tel" name="phone" placeholder="+7(___)___-__-__">
+                                
+                            </div>
+                            <div class="personal__box-item">
+                                <label class="personal__label" for="email">E-mail</label>
+                                <input class="personal__input" id="email" type="email" name="email" pattern=".+@example\.com" size="30" value="" placeholder="Email" required>
+                               
+                            </div>
+                            <div class="personal__box-item">
+                                <label class="personal__label" for="pass">Новый пароль</label>
+                                <input class="personal__input" type="password" id="pass" name="password" minlength="8" required />
+                                
+                            </div>
+                            <button class="personal__btn">Сохранить</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+
+
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__inner-about">
+                        <a class="footer__inner-link" href="index.html">
+                            <img class="footer__inner-about-logo" src="./images/stroyka_img/footer/footer-logo.svg" alt="">
+                        </a>
+                        <p class="footer__inner-about-text">info@stroykastore.ru</p>
+                        <p class="footer__inner-about-text">Москва, ул. Камушкина 10</p>
+                    </div>
+                    <ul class="footer__inner-private">
+                        <li class="footer__inner-about-text"><a class="footer__inner-about-link" href="orders.html">Заказы</a></p>
+                        <li class="footer__inner-about-text"><a class="footer__inner-about-link" href="busket.html">Корзина</a></p>
+                        <li class="footer__inner-about-text"><a class="footer__inner-about-link" href="personal.html">Личный кабинет</a></p>
+                    </ul>
+                    <ul class="footer__inner-inf">
+                        <li class="footer__inner-about-text"><a class="footer__inner-about-link" href="catalog.html">Каталог</a></p>
+                        <li class="footer__inner-about-text"><a class="footer__inner-about-link" href="contacts.html">Контакты</a></p>
+                    </ul>
+                    <ul class="footer__inner-useful">
+                        <li class="footer__inner-about-text"><a class="footer__inner-about-link" href="delivery.html">Доставка</a></p>
+                        <li class="footer__inner-about-text"><a class="footer__inner-about-link" href="refund.html">Возврат</a></p>
+                        <li class="footer__inner-about-text"><a class="footer__inner-about-link" href="documentation.html">Документация</a></p>
+                    </ul>
+                </div>
+                <hr class="footer__hr">
+                <div class="footer__bottom">
+                    <p class="footer__bottom-text">© СтройкаСтор</p>
+                    <div class="footer__bottom-items">
+                        <img class="footer__bottom-item footer__visa" src="./images/stroyka_img/footer/Visa.png" alt="">
+                        <img class="footer__bottom-item" src="./images/stroyka_img/footer/pay2.png" alt="">
+                        <img class="footer__bottom-item" src="./images/stroyka_img/footer/pay3.png" alt="">
+                        <img class="footer__bottom-item footer__mir" src="./images/stroyka_img/footer/pay4.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/main.min.js"></script>
+</body>
+</html>
